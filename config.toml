@@ -1,0 +1,210 @@
+baseurl = "/"
+title = "Kumar Abhishek"
+copyright = "&copy; 2017 Kumar Abhishek"
+languageCode = "en-us"
+theme = "academic"
+
+contentdir = "content"
+layoutdir = "layouts"
+
+canonifyurls = false
+
+# Enable comments by entering your Disqus shortname
+disqusShortname = "kakumarabhishek"
+
+# Enable analytics by entering your Google Analytics tracking ID
+googleAnalytics = ""
+
+
+[params]
+  name = "Kumar Abhishek"
+  role = "Data Scientist (Machine Learning, Image Processing)"
+  organization = "Altisource Labs"
+  avatar = "KA.jpg"
+  email = "kakumarabhishek@outlook.com"
+  address = "RealDoc Data Science Team, 7th Floor, Altisource Business Solutions Pvt. Ltd., Block 11, Pritech Park, RMZ Ecospace, Bellandur, Bangalore, India - 560103"
+  phone = "(+91) 819 700 0644"
+
+  # Date format (refer to Go's date format: http://flippinggodateformat.com )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format = "Monday, January 2, 2006"
+
+  # Enable global LaTeX math rendering? If false, you can enable it locally
+  #   on a per page basis.
+  math = false
+
+  # Enable native social sharing buttons?
+  sharing = true
+
+  # Link custom CSS and JS assets (relative to /static/css and
+  #   /static/js respectively)
+  custom_css = []
+  custom_js  = []
+
+  # Biography section.
+  #   Section will only be displayed if `content/home/about.md` exists.
+  [params.about]
+    interests = [
+      "Image Processing",
+      "Computer Vision",
+      "Machine Learning"
+    ]
+    str_interests = "Interests"
+    str_education = "Education"
+
+    [[params.about.education]]
+      course = "B. Tech. in Electronics & Communication Engineering"
+      institution = "Indian Institute of Technology Guwahati"
+      year = 2015
+
+    #[[params.about.education]]
+      #course = "PhD in Artificial Intelligence"
+      #institution = "Stanford University"
+      #year = 2012
+#
+    #[[params.about.education]]
+      #course = "MEng in Artificial Intelligence"
+      #institution = "Massachusetts Institute of Technology"
+      #year = 2009
+
+  # Résumé section.
+  #   Section will only be displayed if there is relevant content in
+  #   `content/resume/`.
+  [params.resume]
+  title = "Résumé"
+  subtitle = ""
+
+  # Selected Publications section.
+  #   Section will only be displayed if there are publications with
+  #   `selected = true` in their `+++` preamble.
+  #[params.publications_selected]
+  #  detailed_list = true
+  #  title = "Selected Publications"
+  #  subtitle = ""
+
+  # Posts section.
+  #   Section will only be displayed if there are posts in `content/post/`.
+  [params.posts]
+    count = 5
+    title = "Recent Posts"
+    subtitle = ""
+    str_all = "More Posts"
+    str_read_more = "Read more"
+
+  # Projects section.
+  #   Section will only be displayed if there are projects in
+  #   `content/project/`.
+  [params.projects]
+    count = 5
+    detailed_list = false
+    title = "Projects"
+    subtitle = ""
+    str_read_more = "Read more"
+    str_all = "More Projects"
+
+    # Publications section.
+  #   Section will only be displayed if there are publications in
+  #   `content/publication/`.
+  [params.publications]
+    count = 5
+    detailed_list = false
+    title = "Publications"
+    subtitle = ""
+    str_all = "More Publications"
+
+  [params.extracurricular]
+  enable = false
+  count = 5
+  detailed_list = false
+  title = "Extra Curricular"
+  subtitle = ""
+
+
+  # Contact section.
+  [params.contact]
+    enable = true
+    title = "Contact"
+    subtitle = ""
+    autolink = true  # Automatically link email and phone?
+
+  # Social/Academic Networking
+  #
+  # Icon pack "fa" includes the following social network icons:
+  #
+  #   twitter, weibo, linkedin, github, facebook, pinterest, google-plus,
+  #   youtube, instagram, soundcloud
+  #
+  #   For email icon, use "fa" icon pack, "envelope" icon, and
+  #   "mailto:your@email.com" as the link.
+  #
+  #   Full list: https://fortawesome.github.io/Font-Awesome/icons/
+  #
+  # Icon pack "ai" includes the following academic network icons:
+  #
+  #   google-scholar, arxiv, orcid, researchgate, mendeley
+  #
+  #   Full list: https://jpswalsh.github.io/academicons/
+
+  [[params.social]]
+    icon = "briefcase"
+    icon_pack = "fa"
+    link = "mailto:kumar.abhishek@altisource.com"
+
+  [[params.social]]
+  icon = "graduation-cap"
+  icon_pack = "fa"
+  link = "mailto:abh.kumar@alumni.iitg.ernet.in"
+
+  [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "https://in.linkedin.com/in/kakumarabhishek"
+
+  [[params.social]]
+    icon = "github"
+    icon_pack = "fa"
+    link = "https://github.com/kakumarabhishek"
+
+  [[params.social]]
+    icon = "google-scholar"
+    icon_pack = "ai"
+    link = "https://scholar.google.com/citations?user=HagMdKMAAAAJ"
+
+  [[params.social]]
+    icon = "researchgate"
+    icon_pack = "ai"
+    link = "https://www.researchgate.net/profile/Kumar_Abhishek9"
+
+
+# Navigation Links
+#   The weight parameter defines the order that the links will appear in.
+
+[[menu.main]]
+  name = "Home"
+  url = "#top"
+  weight = 1
+
+[[menu.main]]
+  name = "Résumé"
+  url = "resume/KA_Resume_LaTeX.pdf"
+  weight = 2
+
+  [[menu.main]]
+  name = "Publications"
+  url = "#publications"
+  weight = 3
+
+[[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 4
+
+#[[menu.main]]
+#  name = "Extra Curricular"
+#  url = "#extracurricular"
+#  weight = 5
+
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 6
