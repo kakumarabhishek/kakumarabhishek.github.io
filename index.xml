@@ -154,9 +154,11 @@ validation and the final anomaly report generation (using JasperSoft).&lt;/p&gt;
 
 &lt;h4 id=&#34;guide-dr-prithwijit-guha-assistant-professor-department-of-electronics-electrical-engineering-iit-guwahati:e378a736598b64f3dedfff792ea07a92&#34;&gt;&lt;strong&gt;Guide&lt;/strong&gt;: Dr. Prithwijit Guha, Assistant Professor, Department of Electronics &amp;amp; Electrical Engineering, IIT Guwahati&lt;/h4&gt;
 
-&lt;p&gt;The objective of this project was to detect the presentation format of broadcast news videos. Although there has been previous work done on the classification of the various elements present on a frame from a news video, all of this work&lt;/p&gt;
+&lt;p&gt;The objective of this project was to detect and classify the various elements in a frame from a broadcast news video. Although there had been previous work done on the classification of the various elements present on a frame from a news video, all of this work assumed a fixed presentation format, and there was no change across different frames in the layout of the band elements.&lt;/p&gt;
 
-&lt;p&gt;[To be updated]&lt;/p&gt;
+&lt;p&gt;Given a frame from a news video, we used algorithms such as progressive probabilistic Hough transform, associative reasoning, and extreme learning machines to detect and classify the various components present in it, such as studio shot, field shot, channel logo, ticker text, etc., which was to be used to efficiently summarize the news videos. We reported a 0.81 Jaccard index for detected format overlap with ground truth using data from recorded news videos of 4 English news channels.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/files/KumarAbhishek_BTP_FinalReport.pdf&#34;&gt;Link&lt;/a&gt; to Bachelor Thesis Project report.&lt;/p&gt;
 
 &lt;h5 id=&#34;tools-used-c-python-opencv-gnu-scientific-library-gsl-libsvm-openshot-video-editor:e378a736598b64f3dedfff792ea07a92&#34;&gt;Tools used: C++, Python, OpenCV, GNU Scientific Library (GSL), LibSVM, OpenShot Video Editor&lt;/h5&gt;
 </description>
