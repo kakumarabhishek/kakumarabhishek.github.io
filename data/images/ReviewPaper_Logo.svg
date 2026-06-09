@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="417.32999mm"
+   height="265.31506mm"
+   viewBox="0 0 417.32999 265.31506"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="ReviewPaper_Logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497474"
+     inkscape:cx="591.60467"
+     inkscape:cy="566.58038"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1877"
+     inkscape:window-height="1024"
+     inkscape:window-x="43"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-19.261666,199.44682)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot34"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:0;font-family:Manrope;-inkscape-font-specification:Manrope;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(3.2799617,0,0,3.2799617,-219.51954,-750.68082)"><flowRegion
+         id="flowRegion36"><rect
+           id="rect38"
+           width="337.39096"
+           height="249.50768"
+           x="79.802048"
+           y="186.10828" /></flowRegion><flowPara
+         id="flowPara40" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot42"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:0;font-family:Manrope;-inkscape-font-specification:Manrope;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(3.2799617,0,0,3.2799617,-219.51954,-750.68082)"><flowRegion
+         id="flowRegion44"><rect
+           id="rect46"
+           width="334.3605"
+           height="296.98486"
+           x="80.812202"
+           y="182.06767" /></flowRegion><flowPara
+         id="flowPara48" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:131.19845581px;line-height:0;font-family:Manrope;-inkscape-font-specification:Manrope;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.27996135"
+       x="10.077774"
+       y="-103.40955"
+       id="text76"><tspan
+         sodipodi:role="line"
+         id="tspan74"
+         x="10.077774"
+         y="-103.40955"
+         style="stroke-width:3.27996135">Review</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:131.19845581px;line-height:0;font-family:Manrope;-inkscape-font-specification:Manrope;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.27996135"
+       x="49.588753"
+       y="34.380604"
+       id="text76-3"><tspan
+         sodipodi:role="line"
+         id="tspan74-6"
+         x="49.588753"
+         y="34.380604"
+         style="stroke-width:3.27996135">Paper</tspan></text>
+  </g>
+</svg>

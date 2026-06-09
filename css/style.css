@@ -1,0 +1,331 @@
+:root {
+    /* Light Theme (Default) */
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --link-color: #1772d0;
+    --link-hover-color: #f09228;
+    --heading-color: #333333;
+    --subheading-color: #333333;
+    --name-color: #333333;
+    --border-color: #ccc;
+    --bibtex-bg: #f5f5f5;
+    --bibtex-text: #333333;
+    /* Default bibtex text */
+    --highlight-bg: #ffffd0;
+    --news-border: #eee;
+    /* --icon-filter variable removed */
+}
+
+[data-theme="dark"] {
+    --bg-color: #222222;
+    --text-color: #dddddd;
+    --link-color: #58a6ff;
+    --link-hover-color: #ffa759;
+    --heading-color: #eeeeee;
+    --subheading-color: #eeeeee;
+    --name-color: #eeeeee;
+    --border-color: #555555;
+    --bibtex-bg: #333333;
+    --bibtex-text: #dddddd;
+    /* Dark mode bibtex text */
+    --highlight-bg: #444400;
+    --news-border: #444444;
+    /* --icon-filter variable removed */
+}
+
+
+/* --- Original Rules (Mostly Unchanged) --- */
+
+a {
+    color: var(--link-color);
+    /* Use variable */
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    color: var(--link-hover-color);
+    /* Use variable */
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--bg-color);
+    /* Apply variable */
+    color: var(--text-color);
+    /* Apply variable */
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+/* Keep original combined rule for font, but color is handled by body */
+
+td,
+th,
+tr,
+p,
+a {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    /* Ensure boldness */
+}
+
+heading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 24px;
+    color: var(--heading-color);
+    /* Use variable */
+}
+
+subheading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 20px;
+    color: var(--subheading-color);
+    /* Use variable */
+}
+
+papertitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+name {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 32px;
+    color: var(--name-color);
+    /* Use variable */
+}
+
+.one {
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+
+.two {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    left: 0;
+    top: 0;
+}
+
+.fade {
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+    background-color: var(--highlight-bg);
+    /* Use variable */
+}
+
+.bibtex {
+    white-space: pre-wrap;
+    display: none;
+    overflow-x: auto;
+    overflow-y: auto;
+    font-family: monospace;
+    background-color: var(--bibtex-bg);
+    /* Use variable */
+    color: var(--bibtex-text);
+    /* Use variable */
+    padding: 1em;
+    border-radius: 4px;
+    margin-top: 0.5em;
+}
+
+.abstract {
+    display: none;
+    margin-top: 0.5em;
+    padding-left: 1em;
+    border-left: 3px solid var(--border-color);
+    /* Use variable */
+}
+
+
+/* News Section Styles */
+
+.news-section {
+    max-height: 12em;
+    /* Reverted max-height */
+    overflow-y: auto;
+    /* border: 1px solid var(--news-border); */
+    /* Keep border commented */
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    margin-bottom: 0em;
+    /* Reverted margin */
+    /* background-color: var(--bg-color); */
+    /* Inherits from body */
+}
+
+.news-item {
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+    /* border-bottom: 1px dashed var(--news-border); */
+    /* Keep border commented */
+}
+
+.news-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.news-item strong {
+    margin-bottom: 0.25em;
+    font-weight: 700;
+    /* color: var(--text-color); */
+    /* Inherits from body/p */
+}
+
+
+/* --- Dark Theme Overrides (Specific Selectors) --- */
+
+[data-theme="dark"] body {
+    /* Already handled by variable */
+}
+
+[data-theme="dark"] a {
+    color: var(--link-color);
+}
+
+[data-theme="dark"] a:focus,
+[data-theme="dark"] a:hover {
+    color: var(--link-hover-color);
+}
+
+[data-theme="dark"] heading {
+    color: var(--heading-color);
+}
+
+[data-theme="dark"] subheading {
+    color: var(--subheading-color);
+}
+
+[data-theme="dark"] name {
+    color: var(--name-color);
+}
+
+[data-theme="dark"] p {
+    color: var(--text-color);
+}
+
+
+/* Ensure paragraphs inherit */
+
+[data-theme="dark"] li {
+    color: var(--text-color);
+}
+
+
+/* Ensure list items inherit */
+
+[data-theme="dark"] strong {
+    color: var(--text-color);
+}
+
+
+/* Ensure strong text inherits */
+
+[data-theme="dark"] em {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] td {
+    /* Ensure table cells inherit text color */
+    color: var(--text-color);
+}
+
+
+/* Ensure emphasized text inherits */
+
+[data-theme="dark"] .bibtex {
+    background-color: var(--bibtex-bg);
+    color: var(--bibtex-text);
+}
+
+[data-theme="dark"] .abstract {
+    border-left-color: var(--border-color);
+}
+
+[data-theme="dark"] span.highlight {
+    background-color: var(--highlight-bg);
+}
+
+[data-theme="dark"] .news-section {
+    /* background-color: var(--bg-color); */
+    /* Inherits */
+}
+
+[data-theme="dark"] .news-item {
+    /* Added rule for news item text */
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .news-item strong {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .service-list li {
+    /* Added rule for service list items */
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .service-list papertitle {
+    /* Added rule for service group titles */
+    color: var(--text-color);
+}
+
+[data-theme="dark"] font[color="red"] strong {
+    color: #ff8a8a;
+}
+
+
+/* Adjust red highlight for dark mode */
+
+
+/* Dark Mode Toggle Button Styles */
+
+.dark-mode-toggle {
+    position: fixed;
+    /* Use fixed to position relative to viewport */
+    top: 1em;
+    right: 1em;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    z-index: 1000;
+    /* Ensure it's above other content */
+}
+
+.dark-mode-toggle img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    /* filter rule removed */
+}
+
+
+/* Specific rule below is no longer needed */
+
+
+/* 
+html:not([data-theme="dark"]) .dark-mode-toggle img[src$="dark-mode-icon.svg"] {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%); 
+} 
+*/
